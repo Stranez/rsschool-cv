@@ -1,10 +1,10 @@
 ---
-#Denys Moshchonskyi
+# Denys Moshchonskyi
 ---
-#My contact
+# My contact
 ---
-*__email__ : geras5722057@gmail.com
-*__discord__ : Denis Whisper(@Stranez)
+* __email__ : geras5722057@gmail.com
+* __discord__ : Denis Whisper(@Stranez)
 ---
 About me
 ---
