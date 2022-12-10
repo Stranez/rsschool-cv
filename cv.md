@@ -1,11 +1,13 @@
-Denys Moshchonskyi
-My contact
-
-email: geras5722057@gmail.com
-discord: Denis Whisper(@Stranez)
-
+---
+#Denys Moshchonskyi
+---
+#My contact
+---
+*__email__ : geras5722057@gmail.com
+*__discord__ : Denis Whisper(@Stranez)
+---
 About me
-
+---
 My goal is to understand web technologies and learn how to do magic with them.
 
 
@@ -16,3 +18,4 @@ Higher education, Automation and computer-integrated tehnologies
 
 
 English at the level of Google translate
+---
