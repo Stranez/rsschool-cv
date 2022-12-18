@@ -1,0 +1,15 @@
+.wrapper {
+    background: rgb(209, 209, 209);
+    width: 940px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.foto {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.logo a img {
+    width: 100px;
+}
