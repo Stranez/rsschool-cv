@@ -49,3 +49,6 @@ function capitalizeWord(word) {
 ## Education:
 Higher education, Automation and computer-integrated tehnologies
 ---
+## Languages:
+English at the level of Google translate
+---
