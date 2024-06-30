@@ -36,3 +36,5 @@ function capitalizeWord(word) {
   return res;
 }
 ```
+## Education:
+Higher education, Automation and computer-integrated tehnologies
