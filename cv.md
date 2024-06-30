@@ -1,3 +1,5 @@
+![avatar](img/avatar.jpg "Avatar")
+---
 # Denys Moshchonskyi
 ## My contact:
 * __email__ : geras5722057@gmail.com
