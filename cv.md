@@ -2,3 +2,7 @@
 ## My contact:
 * __email__ : geras5722057@gmail.com
 * __discord__ : Denis Whisper(@Stranez)
+## About me:
+
+
+My goal is to understand web technologies and learn how to do magic with them.
