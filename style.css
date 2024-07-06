@@ -1,0 +1,48 @@
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.menu::after {
+  content: '';
+  display: block;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.title::after {
+  content: '';
+  display: block;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.title-one::before {
+  content: '';
+  display: block;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+.contacts__text {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.contacts__link {
+  font-style: normal;
+
+}
