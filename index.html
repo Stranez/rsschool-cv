@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV&#35;3.CV. Cross-Check</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#my-contact" class="menu__link">My contact</a>
+            </li>
+            <li class="menu__item">
+              <a href="#about-me" class="menu__link">About me</a>
+            </li>
+            <li class="menu__item">
+              <a href="#skills-and-proficiency" class="menu__link">Skills and Proficiency</a>
+            </li>
+            <li class="menu__item">
+              <a href="#code-example" class="menu__link">Code example</a>
+            </li>
+            <li class="menu__item">
+              <a href="#education" class="menu__link">Education</a>
+            </li>
+            <li class="menu__item">
+              <a href="#languages" class="menu__link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="avatar">
+          <img src="/rsschool-cv/img/avatar.jpg" alt="image:Avatar">
+        </div>
+        <h1 class="title title-one">Denys Moshchonskyi</h1>
+        <h2 class="title" id="my-contact">My contact:</h2>
+        <address class="contacts">
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <span class="contacts__text">email:</span>
+              <a href="mailto:geras5722057@gmail.com" class="contacts__link">geras5722057@gmail.com</a>
+            </li>
+            <li class="contacts__item">
+              <span class="contacts__text">discord:</span>
+              <a href="#" class="contacts__link">Denis Whisper(@Stranez)</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="about">
+          <h2 class="title" id="about-me">About me:</h2>
+          <p>My goal is to understand web technologies and learn how to do magic with them.</p>
+        </div>
+        <div class="skills">
+          <h2 class="title" id="skills-and-proficiency">Skills and Proficiency:</h2>
+          <ul class="skills__list">
+            <li class="skills__item">Basic HTML5</li>
+            <li class="skills__item">Basic CSS3</li>
+            <li class="skills__item">Basic JavaScript</li>
+            <li class="skills__item">Basic Figma</li>
+            <li class="skills__item">Basic Git and Github</li>
+          </ul>
+        </div>
+        <div class="code">
+          <h2 class="title" id="code-example">Code example:</h2>
+          <div class="code__desc">
+            <p>Your coworker was supposed to write a simple helper function to capitalize a string (that contains a single word) before they went on vacation.</p>
+            <p>Unfortunately, they have now left and the code they gave you doesn’t work. Fix the helper function they wrote so that it works as intended (i.e. make the first character in the string “word” upper case).</p>
+            <p>Don’t worry about numbers, special characters, or non-string types being passed to the function. The string lengths will be from 1 character up to 10 characters, but will never be empty.</p>
+
+            <pre class="code__text">
+              function capitalizeWord(word) {
+                let res = '';
+                for (let i = 0; i &lt; word.length; i++){
+                  if(i === 0) {
+                    res += word[i].toUpperCase();
+                  }
+                  else {
+                    res += word[i];
+                  }
+                }
+                return res;
+              }
+            </pre>
+          </div>
+        </div>
+        <div class="education">
+          <h2 class="title" id="education">Education:</h2>
+          <p>Higher education, Automation and computer-integrated tehnologies</p>
+        </div>
+        <div class="languages">
+          <h2 class="title" id="languages">Languages:</h2>
+          <p>English at the level of Google translate</p>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <a href="https://github.com/Stranez">my github</a>
+        <div class="date">06.07.2024</div>
+        <a href="https://rs.school/courses/javascript-ru">
+          <img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/34c6c5cbc96ec26fcfdb022d1a6f3b2641f0110c/tasks/cv/rs-school-logo.svg" alt="icon" class="icon">
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
