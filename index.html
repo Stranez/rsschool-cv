@@ -58,7 +58,7 @@
           <div class="about__text">My goal is to understand web technologies and learn how to do magic with them.</div>
         </div>
         <div class="skills">
-          <h2 class="title">Skills and Proficiency:</h2>
+          <h2 class="title" id="skills-and-proficiency">Skills and Proficiency:</h2>
           <ul class="skills__list">
             <li class="skills__item">Basic HTML5</li>
             <li class="skills__item">Basic CSS3</li>
@@ -66,6 +66,29 @@
             <li class="skills__item">Basic Figma</li>
             <li class="skills__item">Basic Git and Github</li>
           </ul>
+        </div>
+        <div class="code">
+          <h2 class="title" id="code-example">Code example:</h2>
+          <div class="code__desc">
+            <p>Your coworker was supposed to write a simple helper function to capitalize a string (that contains a single word) before they went on vacation.</p>
+            <p>Unfortunately, they have now left and the code they gave you doesn’t work. Fix the helper function they wrote so that it works as intended (i.e. make the first character in the string “word” upper case).</p>
+            <p>Don’t worry about numbers, special characters, or non-string types being passed to the function. The string lengths will be from 1 character up to 10 characters, but will never be empty.</p>
+
+            <pre class="code__text">
+              function capitalizeWord(word) {
+                let res = '';
+                for (let i = 0; i < word.length; i++){
+                  if(i === 0) {
+                    res += word[i].toUpperCase();
+                  }
+                  else {
+                    res += word[i];
+                  }
+                }
+                return res;
+              }
+            </pre>
+          </div>
         </div>
       </div>
     </main>

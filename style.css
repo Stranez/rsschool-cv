@@ -46,3 +46,8 @@ img {
   font-style: normal;
 
 }
+
+.code__text {
+  background: #f5efef;
+  padding-top: 20px;
+}
