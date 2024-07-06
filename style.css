@@ -51,3 +51,15 @@ img {
   background: #f5efef;
   padding-top: 20px;
 }
+
+.languages::after {
+  content: '';
+  display: block;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+.icon {
+  width: 200px;
+}
